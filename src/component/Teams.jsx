@@ -13,7 +13,7 @@ const Teams = () => {
         Verified Teams{" "}
       </h2>
       {/* cards container */}
-      <div className="flex items-center justify-center flex-col  lg:px-32">
+      <div className="flex items-center justify-center flex-col  lg:px-32 overflow-hidden ">
       {/* team card */}
      <div className="flex flex-col lg:flex-row">
      <div className=" max-w-96 py-11 px-8 flex flex-col gap-4 text-center border-2 border-[#A0AEC0] mx-4 my-6 rounded-[40px] ">

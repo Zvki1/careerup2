@@ -1,13 +1,26 @@
 import Logo from '../assets/logo.png'
 import Hamburger from '../assets/hamburger.png'
+import { useState } from 'react'
 const NavBar = () => {
+  const [show, setShow] = useState(false)
   return (
-    <div>
+    // mobile nav
+    <div  >
+    {show && 
+    <div className='rounded-[20px] opacity-80   absolute z-50 top-20 -left-10 w-1/2 flex flex-col items-center lg:hidden bg-white text-black font-meduim text-[20px] py-5 mx-32 px-5'>
+       <ul className='flex flex-col gap-5'>
+      <li className='hover:text-[#BEE3F8]'> <a href=""> Home </a></li>
+      <li className='hover:text-[#BEE3F8]'> <a href=""> About Us </a></li>
+      <li className='hover:text-[#BEE3F8]'> <a href=""> Our Flow </a></li>
+      <li className='hover:text-[#BEE3F8]'> <a href=""> FAQ </a></li>
+    </ul>
+      </div>}
+      
    <nav className=' flex flex-row lg:hidden justify-between pt-6 px-7  w-full z-10 absolute '>
     <a href="#">
         <img width="34px" src={Logo} alt="lg" />
     </a>
-    <button>
+    <button onClick={()=>(setShow(!show))}>
         <img width="36px" src={Hamburger} alt="hm" />
     </button>
    </nav>
