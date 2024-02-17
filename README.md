@@ -1,8 +1,12 @@
-# React + Vite
+# CAREERUP B2B Website
+this the b2b website for our platform to register new startup founders and showcase our services
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Demo
 
-Currently, two official plugins are available:
+Check out the live demo of the CAREERUP B2B Website [here](https://careerup2.vercel.app/)https://careerup2.vercel.app/.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deployement
+deployed with (https://vercel.com/)
+
+## Built with
+Reactjs and tailwindCss for styling
