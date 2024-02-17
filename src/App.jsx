@@ -5,6 +5,7 @@ import './App.css'
 import AboutUs from './component/AboutUs'
 import Cta from './component/Cta'
 import Teams from './component/Teams'
+import Footer from './component/Footer'
 function App() {
 
 
@@ -16,6 +17,7 @@ function App() {
       <AboutUs />
       <Cta />
       <Teams /> 
+      <Footer />
       
 
 
