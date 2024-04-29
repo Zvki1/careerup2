@@ -1,5 +1,4 @@
 # CAREERUP B2B Website
-this the b2b website for our platform to register new startup founders and showcase our services
 a b2b website for CAREERUP platform to register new startup founders and showcase the services.
 
 ## Demo
